@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/playlistBtn"
+        android:title="@string/playlist_btn"
+        android:icon="@drawable/playlist_icon"/>
+
+    <item android:id="@+id/favouriteBtn"
+        android:title="@string/favourites_btn"
+        android:icon="@drawable/favourite_icon"/>
+
+    <item android:id="@+id/shuffleBtn"
+        android:title="@string/shuffle_btn"
+        android:icon="@drawable/shuffle_icon"/>
+    <item
+        android:id="@+id/changeLanguageBtn"
+        android:title="@string/change_language"
+        android:icon="@drawable/ic_language"/>
+
+    <item android:id="@+id/navExit"
+        android:title="@string/exit"
+        android:icon="@drawable/exit_icon"/>
+
+</menu>

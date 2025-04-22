@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <!-- Блок для таймера на 15 минут -->
+    <LinearLayout
+        android:id="@+id/min_15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables"
+        android:layout_margin="10dp">
+
+        <!-- Иконка таймера -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/timer_icon"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/min_15"
+            app:tint="@color/white" />
+
+        <!-- Текст "15 минут" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/min_15"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <!-- Блок для таймера на 30 минут -->
+    <LinearLayout
+        android:id="@+id/min_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables"
+        android:layout_margin="10dp">
+
+        <!-- Иконка таймера -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/timer_icon"
+            app:tint="@color/white"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/min_30" />
+
+        <!-- Текст "30 минут" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/min_30"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:padding="8dp"/>
+    </LinearLayout>
+
+    <!-- Блок для таймера на 60 минут -->
+    <LinearLayout
+        android:id="@+id/min_60"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables"
+        android:layout_margin="10dp">
+
+        <!-- Иконка таймера -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/timer_icon"
+            app:tint="@color/white"
+            android:layout_margin="8dp"
+            android:contentDescription="@string/min_60" />
+
+        <!-- Текст "60 минут" -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/min_60"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:padding="8dp"/>
+    </LinearLayout>
+</LinearLayout>
